@@ -1,0 +1,62 @@
+#map {
+  height: 40%;
+  width: 50%;
+}
+
+body {
+  color: #666666;
+  background-color: #f9f8f6;
+  background-image: url(../imagen/imagen1.jpeg);
+}
+
+.contenido {
+  background-image: url(../imagen/imagen1.jpeg);
+  width: 100%;
+  height: 1200px;
+  background-size: cover;
+  position: relative;
+}
+.contenido:before {
+  content: '';
+  width: 100%;
+  height: 900%;
+  background-color: black;
+  position: absolute;
+  opacity: 0.5;
+}
+.contenido h1,
+nav,
+h3,
+p {
+  position: relative;
+}
+.contenido button,
+input {
+  position: relative;
+}
+.contenido h1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  color: rgb(221, 243, 212);
+  text-align: center;
+}
+.contenido h3 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.contenido p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: rgb(221, 243, 212);
+  text-align: center;
+}
+
+.contenido nav {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  background-color: rgb(221, 243, 212);
+  text-align: center;
+}
